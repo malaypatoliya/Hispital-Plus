@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap");
+
+* {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0CB8B6;
+}
+
+
+
+.navbar {
+ 
+  background-color: #0CB8B6;
+}
+
+.logo{
+  color: #fff;
+}
+.logoicon{
+  font-size: 40px;
+}
+
+.logotext{
+  position: relative;
+  margin-top: -20px;
+}
+
+
+
+.viewprofile {
+  background-color: #0CB8B6;
+}
+
+.app {
+  background-color: #0CB8B6;
+}
+
+.nav-item {
+  border-bottom: 4px solid #0CB8B6;
+}
+
+.nav-item:hover {
+  /* background-color: white; */
+  border-bottom: 4px solid #fff;
+}
+
+
+.doctorcard {
+  border-top: 4px solid #0CB8B6;
+  margin: 0 10px;
+}
+
+.cimg {
+  width: 100%;
+  max-height: 75vh;
+  border-radius: 10px;
+}
+.cdiv {
+  width: 70%;
+  margin: auto;
+}
+
+.searching {
+  width: 100%;
+}
+
+.main-button {
+  font-size: 25px;
+}
+
+
+
+@media screen and (min-width: "500px") {
+  .searching {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: "500px") {
+  .firstc {
+    font-size: 10px;
+    margin-bottom: 10%;
+  }
+}
+
+.firstc {
+  margin-bottom: 18%;
+  margin-right: 25%;
+  font-size: 40px;
+}
+
+.doctorlist {
+  color: #0CB8B6;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.viewprofile:hover,
+.app:hover {
+  background-color: #18a8a6;
+  color: #fff;
+}
+.app{
+  color: #fff;
+}
+.app a:hover{
+  background-color: #18a8a6;
+  color: #fff;
+}
+
+.mission {
+  text-align: center;
+}
+
+.form-select,
+.searcharea {
+  border: 3px solid #0CB8B6;
+}
+
+.profiledr {
+  border: 4px solid #0CB8B6;
+}
+
+.pr {
+  color: #0CB8B6;
+}
+
+.bookingDiv {
+  border: 5px solid #0CB8B6;
+  margin: 80px auto;
+  width: 650px;
+  padding: 20px 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .Login {
+    width: 90%;
+  }
+}
+
+.ac {
+  /* width: 70vh; */
+  height: 40vh;
+  border-radius: 3%;
+  border-top: 5px solid #0CB8B6;
+}
+.team {
+  height: 30vh;
+}
+
+
+.sendBtn{
+  background-color: #0CB8B6;
+}
+
+.sendBtn:hover{
+  background-color: #18a8a6;
+}
+
+
+.bookApointment{
+  background-color: #0CB8B6;
+}
+.bookApointment:hover{
+  background-color: #18a8a6;
+}
+
+.bookApointment a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.ina{
+  border: 3px solid #0CB8B6;
+}
+
+.bookBtn{
+  color: white;
+  background-color: #0CB8B6 !important;
+}
+.bookBtn:hover{
+  color: white;
+  background-color: #18a8a6 !important;
+}
+
+.alertTitle{
+  color: red;
+  text-align: center;
+}
+.bloodCard b{
+  margin-bottom: 100px;
+}
+
+.errMsg{
+  color: red !important;
+}

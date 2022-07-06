@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: 'Rubik', sans-serif !important;
+  box-sizing: border-box !important;
+}
+
+
+
+/*  navigation bar -------------------------------------------------------- */
+
+.navigationBar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px !important;
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0rem 0.1rem 1rem rgba(0, 0, 0, 0.1) !important;
+  color: black;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.nav-ul li {
+  display: inline-flex;
+}
+
+.navItem {
+  color: black;
+  text-decoration: none;
+  padding: 7px 15px !important;
+}
+
+.navItem:hover {
+  box-shadow: -0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.1) !important;
+  border-radius: 5px;
+  color: black;
+
+}
+
+.addBTN{
+  margin: 10px 0;
+  color: white;
+  text-decoration: none;
+  padding: 7px 15px !important;
+}
+
+.addBTN:hover{
+  color: white;
+}
+
+.errMsg{
+  color: red !important;
+}
+
+
+/* .errMsg{
+  color: red;
+  font-size: .8rem;
+  margin: 5px 0 0 0;
+}
+
+.product-list{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.product-list h2{
+  margin: 0 0 30px 0
+}
+
+.product-list ul li{
+  display: inline-block;
+  border: 2px solid skyblue;
+  padding: 7px;
+  width: 200px;
+} */
+
+
+/*  -------------------------------------------------------- */
+.formWidth{
+  width: 600px !important;
+  margin: 0 auto !important;
+}
+.loginFormDiv,
+.SignupFormDiv {
+  width: 600px !important;
+  margin: 100px auto !important;
+}
+
+.form-heading {
+  text-align: center;
+  margin-bottom: 50px !important;
+}
+
+input, select {
+  margin-bottom: 20px !important;
+  padding: 5px 8px !important;
+}
+
+.btn {
+  margin: 10px 3px !important;
+  padding: 5px 10px !important;
+}
+
+
+
+.sidebar {
+  width: 250px;
+  height: 100%;
+  padding: 20px !important;
+  /* background-color: rgb(108, 110, 110) !important; */
+  box-shadow: 0rem 0.2rem 1rem rgba(0, 0, 0, 0.1) !important;
+  position: fixed;
+  left: 0;
+  top: 70px;
+  display: inline-block;
+}
+
+.side-Nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+
+.sideItem {
+  display: block;
+  padding: 10px !important;
+  color: black;
+  text-decoration: none;
+}
+
+.sideItem:hover {
+  /* background-color: rgb(80, 82, 82); */
+  box-shadow: 0.1rem 0.1rem  0.5rem rgba(0, 0, 0, 0.1) !important;
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+}
+
+.active{
+  /* background-color: rgb(80, 82, 82); */
+  box-shadow: 0rem 0.1rem 0.5rem rgba(0, 0, 0, 0.1) !important;
+  border-left: 2px solid black;
+  border-radius: 4px;
+}
+
+.ContentDiv {
+  display: inline-block;
+  margin-left: 250px !important;
+  width: calc(100% - 250px);
+  padding: 30px !important;
+}
+
+.headingTitle{
+  margin-bottom: 30px !important;
+}
+
+.err{
+  text-align: center;
+  color: red;
+}
+
+.mytable {
+  margin: 10px 0 0 0 !important;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.mytable tr td,
+.mytable tr th {
+  padding: 8px 15px !important;
+  border: 1px solid #ddd;
+  text-align: center;
+  
+}
+
+.scroll {
+  display: block;
+  overflow-x: auto;
+}
+
+.errMsg{
+  margin: -20px 0 30px 0 !important;
+  color: red;
+}
+
+.homeDiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px !important;
+}
+
+.box{
+  /* border-bottom: 40px solid rgb(128, 129, 129); */
+  border-radius: 10px;
+  width: 370px !important;
+  padding: 50px 30px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: -0.1rem -0.1rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.box p{
+  font-size: 25px;
+}
+
+.count{
+  font-size: 50px !important;
+  font-weight: bold;
+  margin-bottom: 10px !important;
+}
